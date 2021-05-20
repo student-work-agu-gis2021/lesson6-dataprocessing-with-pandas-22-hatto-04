@@ -17,6 +17,8 @@ import numpy as np
 data = None
 
 # YOUR CODE HERE 1
+fp=r'data/1091402.txt'
+data=pd.reead_csv(fp,delim_whitespace=True,na_values=['*', '**', '***', '****', '*****', '******']
 
 # ### Part 2 
 # 
